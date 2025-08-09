@@ -10,11 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up JDK 17
+      - name: Set up JDK 24
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: '24'
           cache: maven
 
       - name: Build with Maven
@@ -25,7 +25,7 @@ jobs:
           echo "Main-Class: com.mycompany.addressbook.Main" > MANIFEST.MF
           echo "Class-Path: ." >> MANIFEST.MF
           jar umf MANIFEST.MF target/*.jar
-          jar tf target/*.jar | head -n 5
+          jar tf target/*.jar | head -n 10
 
       - name: Upload artifact (JAR ejecutable)
         uses: actions/upload-artifact@v4
