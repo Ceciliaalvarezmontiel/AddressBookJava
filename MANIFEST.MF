@@ -1,0 +1,3 @@
+Main-Class: com.mycompany.addressbook.Main
+Class-Path: .
+
