@@ -56,3 +56,5 @@ Java JDK 17 o superior.
 git clone https://github.com/Ceciliaalvarezmontiel/AddressBookJava.git
 cd AddressBookJava
 mvn clean package
+
+![CI](https://github.com/Ceciliaalvarezmontiel/AddressBookJava/actions/workflows/java-ci.yml/badge.svg)
