@@ -58,3 +58,6 @@ cd AddressBookJava
 mvn clean package
 
 ![CI](https://github.com/Ceciliaalvarezmontiel/AddressBookJava/actions/workflows/java-ci.yml/badge.svg)
+
+Descarga rápida
+JAR listo para usar: https://github.com/Ceciliaalvarezmontiel/AddressBookJava/releases/download/v1.0.0/AddressBook-v1.0.0.jar
